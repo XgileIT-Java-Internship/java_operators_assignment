@@ -13,37 +13,33 @@ public class ComparisonOperators {
     }
 public void equalTo(int a, int b)
 {
-     a = 5;
-     b = 3;
-    System.out.println(a == b); // returns false because 5 is not equal to 3
+    System.out.println(a == b);
+    System.out.println("\"a == b\" returns false because "+a+" is not equal to "+b);
 }
 
     public void greater0rEqualTo(int a, int b)
     {
-        int x = 5;
-        int y = 3;
-        System.out.println(x >= y); // returns true because 5 is greater, or equal, to 3
+
+        System.out.println(a >= b);
+        System.out.println(" "+a+" >= "+b+"\" returns true because" +a+" is greater, or equal to"+b);
     }
 
     public void greaterThan(int a, int b)
     {
-        int x = 5;
-        int y = 3;
-        System.out.println(x > y); // returns true because 5 is greater than 3
+        System.out.println(a > b);
+        System.out.println("\" "+a+" >"+b+"\" returns true because "+a+" is greater than "+b);
     }
 
     public void lessThan(int a, int b)
     {
-        int x = 5;
-        int y = 3;
-        System.out.println(x < y); // returns false because 5 is not less than 3
+        System.out.println(a < b);
+        System.out.println("\" "+a+""+" < "+b+"\" returns false because "+a+" is not less than "+b);
     }
 
     public void notEqualTo(int a, int b)
     {
-        int x = 5;
-        int y = 3;
-        System.out.println(x != y); // returns true because 5 is not equal to 3
+        System.out.println(a != b);
+        System.out.println( "\""+a+" != "+b+"\" returns true because "+a+" is not equal to "+b);
     }
 
 }

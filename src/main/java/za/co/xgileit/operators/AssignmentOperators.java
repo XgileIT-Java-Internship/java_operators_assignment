@@ -13,34 +13,39 @@ public class AssignmentOperators {
     public void additionAssignment(int number)
     {
         int x = number;
-        x+=5;
+        x+=number;
         System.out.println(x);
+        System.out.println("x += 5 same as \"x = x + 5\" equal to "+(x+number));
     }
 
     public void subtractionAssignment(int number)
     {
         int x = number;
-        x-=5;
+        x-=number;
         System.out.println(x);
+        System.out.println("x -= 5 same as \"x = x - 5\" equal to "+(x-number));
     }
 
     public void multiplicationAssignment(int number)
     {
         int x = number;
-        x*=5;
+        x*=number;
         System.out.println(x);
+        System.out.println(" x *= 5 same as \" x *= 5\" equal to "+(x*number));
     }
 
     public void divisionAssignment(int number)
     {
-        int x = number;
-        x/=5;
+        int x = 10;
+        x/=number;
         System.out.println(x);
+        System.out.println("x /= 5 same as \"x = x / 5\" equal to "+(x/number));
     }
 
     public void modulusAssignment(int number) {
-        int x = number;
-        x %= 5;
+        int x = 10;
+        x %= number;
         System.out.println(x);
+        System.out.println("x %= 5 same as \"x = x % 5\" equal to "+x%number);
     }
     }
